@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Auto commit & push",
+      "type": "shell",
+      "command": "${workspaceFolder}/scripts/auto-commit-push.sh",
+      "args": ["Auto commit wiki change"],
+      "problemMatcher": [],
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "panel": "shared"
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+
+git_dir=$(git rev-parse --git-dir 2>/dev/null || true)
+if [ -z "$git_dir" ]; then
+  exit 0
+fi
+
+remote=$(git config --get remote.origin.url || true)
+if [ -n "$remote" ]; then
+  git push origin HEAD
+fi

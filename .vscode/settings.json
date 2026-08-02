@@ -1,0 +1,20 @@
+{
+  "files.associations": {
+    "*.pdf": "pdf"
+  },
+  "workbench.editorAssociations": {
+    "*.pdf": "pdf.preview",
+    "*.copilotmd": "vscode.markdown.preview.editor",
+    "*.ppf": "default"
+  },
+  "explorer.openEditors.visible": 0,
+  "files.defaultLanguage": "markdown",
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": "\\.(md|json|yaml|yml|sh|txt)$",
+        "cmd": "${workspaceFolder}/scripts/auto-commit-push.sh \"Auto commit & push on save\""
+      }
+    ]
+  }
+}
