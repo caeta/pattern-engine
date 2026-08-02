@@ -16,5 +16,12 @@
         "cmd": "${workspaceFolder}/scripts/auto-commit-push.sh \"Auto commit & push on save\""
       }
     ]
-  }
+  },
+  "explorerDates.badgePriority": "time",
+  "explorerDates.colorScheme": "recency",
+  "explorerDates.dateDecorationFormat": "relative-short",
+  "explorerDates.enableAnalysisCommands": true,
+  "explorerDates.enableOnboardingSystem": true,
+  "explorerDates.enableWorkspaceIntelligence": true,
+  "explorerDates.performanceMode": false
 }
