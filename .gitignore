@@ -1,0 +1,5 @@
+.obsidian/
+.DS_Store
+.claude/settings.local.json
+raw/Files/*
+!raw/Files/.gitkeep
